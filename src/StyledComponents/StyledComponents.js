@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import Reversed from './ReversedButton';
 import {keyframes} from 'styled-components';
+import ThemeButton from './theming';
+import FunctionThemeButton from './function-themes';
+import ThemePropButton from './theme-prop';
 
 const Title = styled.h1 `
     font-size: 1.5em;
@@ -88,6 +91,9 @@ function StyledComponents(props) {
             <Input placeholder="A bigger text input" size="2em" />
             <br/>
             <Rotate>&lt; 💅 &gt;</Rotate>
+            <ThemeButton></ThemeButton>
+            <FunctionThemeButton></FunctionThemeButton>
+            <ThemePropButton></ThemePropButton>
         </div>
         
     );
