@@ -5,6 +5,7 @@ import {keyframes} from 'styled-components';
 import ThemeButton from './theming';
 import FunctionThemeButton from './function-themes';
 import ThemePropButton from './theme-prop';
+import StylingReact from './styling-normal-react/styling-normal-react';
 
 const Title = styled.h1 `
     font-size: 1.5em;
@@ -90,10 +91,11 @@ function StyledComponents(props) {
             <br />
             <Input placeholder="A bigger text input" size="2em" />
             <br/>
-            <Rotate>&lt; 💅 &gt;</Rotate>
+            <Rotate>&lt; hehe &gt;</Rotate>
             <ThemeButton></ThemeButton>
             <FunctionThemeButton></FunctionThemeButton>
             <ThemePropButton></ThemePropButton>
+            <StylingReact></StylingReact>
         </div>
         
     );
